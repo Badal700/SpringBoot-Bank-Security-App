@@ -14,7 +14,7 @@ public class BankRestController {
 	
 	@GetMapping("/balance")
 	public String balance() {
-		String msg = "Your balance is :: 42.055 INR";
+		String msg = "Your balance is :: 42,055 INR";
 		return msg;
 	}
 	
