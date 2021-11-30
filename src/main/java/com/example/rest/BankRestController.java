@@ -8,6 +8,7 @@ public class BankRestController {
 	
 	@GetMapping("/home")
 	public String home() {
+		System.out.println("This is home  page");
 		String msg = "Welcome To State Bank Of India";
 		return msg;
 	}
